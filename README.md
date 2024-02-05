@@ -24,4 +24,26 @@ La sobrecarga son métodos con el mismo nombre pero con diferentes parámetros, 
 ### Ejercicio 4
 Habría que poner que la clase Video como la clase padre y las clase Pelicula como su clase hija
 
-El código mostrará
+El código mostrará 
+### Ejercicio 5
+a. No estaría bien porque se quiere asignar el valor "Seat" a la variable marca, pero la variable es privada, entonces no se podria hacer eso.
+
+b. Si que es correcto, se puede modificar esa variable ya que es una variable protegida, y se puede cambiar el valor desde una clase derivada.
+
+c. Si que es correcto, se puede modificar esa variable ya que es una variable pública, y se puede cambiar el valor desde una clase derivada.
+
+d. Si que es correcto porque es un método protegido y esta en el mismo paquete.
+
+e. Si porque es un método protected y se podira utilizar en las clases derivadas, si que esta en el mismo paquete
+
+### Ejercicio 8
+
+El primer código imprimiría:
+
+"Marca = Acer"
+
+El segundo código imprime:
+
+"Marca = (La marca que se haya establecido en el constructor de Tableta)"
+
+"Marca = Acer"
